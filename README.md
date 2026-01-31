@@ -1,22 +1,58 @@
-<<<<<<< HEAD
-## Getting Started
+# OOP-GUI-JAVA Project
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A Java-based desktop application developed using Object-Oriented Programming (OOP) principles and Graphical User Interface (GUI) libraries.
 
-## Folder Structure
+## 🚀 Features
+- **Interactive GUI:** Built using Java Swing/AWT or JavaFX.
+- **OOP Principles:** Implements Encapsulation, Inheritance, Polymorphism, and Abstraction.
+- **Event Handling:** Responds to user inputs such as button clicks, text entry, and menu selections.
+- **[Add Feature]:** (e.g., Database integration, file handling, or specific logic).
 
-The workspace contains two folders by default, where:
+## 🛠️ Tech Stack
+- **Language:** Java
+- **GUI Library:** Swing / JavaFX
+- **IDE:** IntelliJ IDEA / Eclipse / NetBeans
+- **Build Tool:** Maven/Gradle (if applicable)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 📁 Project Structure
+```text
+OOP-GUI-JAVA/
+├── src/                # Source code files (.java)
+│   ├── main/           # Application entry point
+│   ├── models/         # Data classes/Objects
+│   └── views/          # GUI Layouts and Frames
+├── bin/                # Compiled .class files
+└── lib/                # External libraries (if any)
+```
+## How to Run
+#### Prerequisites
+Install JDK 8 or higher (JDK 17+ recommended).
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Ensure java and javac are added to your system environment variables.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### Method 1: Using Terminal (Recommended)
+## 1. Clone the repository:
+```
+git clone [https://github.com/BintangKartika06/OOP-GUI-JAVA.git](https://github.com/BintangKartika06/OOP-GUI-JAVA.git)
+cd OOP-GUI-JAVA
+```
+## 2. Compile the source code: (Navigate to the folder containing your .java files)
+```
+javac -d bin src/*.java
+```
+## 3. Run the application: (Replace 'Main' with the actual name of your class containing the public static void main method)
+```
+java -cp bin Main
+```
 
-## Dependency Management
+### Method 2: Using an IDE (IntelliJ/Eclipse/NetBeans)
+> Open your IDE and select Open Project.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-=======
-# OOP-GUI-JAVA
->>>>>>> ef64d3185277c1dcb1a8e35a77ea497deeb39fa3
+> Navigate to the OOP-GUI-JAVA folder.
+
+> Locate the file with the main method (usually Main.java or App.java).
+
+> Right-click the file and select Run 'Main.main()'.
+
+👤 Author
+Bintang Kartika - [GitHub Profile](https://github.com/BintangKartika06)
